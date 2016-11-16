@@ -1,15 +1,36 @@
-This is for the first exercise in front-end-milestones/2-the-static-web
+This is for the third exercise in front-end-milestones/2-the-static-web
 
-Blog Page
+Banking Form
 
 
 
 Instructions for exercise:
 
-Build a basic blog page that has 5 articles and any random topics you want to talk about. The text can be anything, even placeholder text ( look at this lorem ipsum text generator for an example of the official unofficial gibberish of web developers everywhere ).
+Build a form that accepts a loan application. It must have the following fields.
 
-There should be a page header containing the blog's title.
-There should be a page footer containing the copyright notice. View pretty much any web site to see an example.
-Each article has a header containing a title.
-Each article has a footer containing the author and publication date.
-Each article has at least one section.
+Applicant first name
+Applicant middle initial
+Applicant last name
+Applicant address
+Applicant occupation
+Applicant employer
+Employer address
+Type of loan select element with these options:
+Commercial
+Real estate
+Personal
+Mortgage
+Requested amount of loan
+Radio button elements for loan length
+5 years
+15 years
+30 years
+Checkbox group for special conditions
+I have a down payment
+Out-of-state resident
+Married
+Loan will be co-signed
+A text area to allow for additional comments
+Applicant email address
+Applicant telephone number
+Applicant LinkedIn URL
