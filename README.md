@@ -1,12 +1,11 @@
-This is for the second exercise in front-end-milestones/2-the-static-web
+## This is for the second exercise in front-end-milestones/2-the-static-web
 
 Banking Form
 
 
+### Instructions for exercise:
 
-Instructions for exercise:
-
-Build a form that accepts a loan application. It must have the following fields.
+#### Build a form that accepts a loan application. It must have the following fields.
 
 Applicant first name
 
