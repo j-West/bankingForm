@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Please Complete</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  <header><h1>Loan Application</h1></header>
+
+  <div class="wrapper">   
+   
+    <form method="POST" role="form">
+     
+      <label for="fName">First Name:</label>
+      <input type="text" id="fName" placeholder="First Name">
+     
+      <label for="mInitial">Middle Initial:</label>
+      <input type="text" id="mInitial" placeholder="Middle Initial">
+     
+      <label for="lName">Last Name:</label>
+      <input type="text" id="lName" placeholder="Last Name">
+    
+      <label for="address">Address:</label>
+      <input type="text" id="address" placeholder="Address">
+
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" placeholder="Occupation">
+
+      <label for="employer">Employer:</label>
+      <input type="text" id="employer" placeholder="Employer">
+      
+      <label for="empAddress">Employer Address:</label>
+      <input type="text" id="empAddress" placeholder="Employer Address">
+
+      <label for="loanType">Type of Loan</label>
+      <select id="loanType">
+        <option>Commercial</option>
+        <option>Real estate</option>
+        <option>Personal</option>
+        <option>Mortgage</option>
+      </select>
+
+      <label for="loanAmount">Amount of requested loan:</label>
+      <input type="text" id="loanAmount" placeholder="Amount in dollars">
+
+      <label class="displayBlock">Length of Loan</label>
+      
+      <label class="radio">
+      <input type="radio" name="RadioOptions" id="Radio1" value="5Year">5 Year
+      </label>
+      
+      <label class="radio">
+      <input type="radio" name="RadioOptions" id="Radio2" value="15Year"> 15 Year
+      </label>
+
+      <label class="radio">
+      <input type="radio" name="RadioOptions" id="Radio3" value="30Year"> 30 Year
+      </label>
+
+      <label>Special Conditions:</label>
+      
+       <label>
+      <input type="checkbox" value="downPayment">I have a down payment
+      </label>
+
+      <label>
+      <input type="checkbox" value="outOfState">Out-of-state resident
+      </label>
+
+      <label>
+      <input type="checkbox" value="married">Married
+      </label>
+
+      <label for="comment">Additional Comment:</label>
+      <textarea rows="5" id="comment"></textarea>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="CPuller@usmc.mil">
+      
+      <label for="phone">Phone Number:</label>
+      <input type="phone" id="phone" name="phoneNumber" placeholder="123-456-7890">
+      
+      <label for="linkedIn">LinkedIn URL:</label>
+      <input type="url" id="linkedIn" name="linkedIn" placeholder="linkedIn/GenCPuller">
+    
+      <button type="submit">Submit</button>
+
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
